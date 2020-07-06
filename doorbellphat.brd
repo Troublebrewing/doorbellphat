@@ -110,6 +110,12 @@ REV 0
 TBB 2020</text>
 <text x="8" y="43" size="1.27" layer="21" font="vector" ratio="13">INPUT: 12-24VAC 
 OUTPUT: 5VDC 0.25A</text>
+<text x="12" y="61.1" size="2.54" layer="22" font="vector" ratio="13" rot="MR0">+</text>
+<text x="20.2" y="61.4" size="2.54" layer="22" font="vector" ratio="13" rot="MR0">-</text>
+<text x="27.8" y="35" size="2.54" layer="22" font="vector" ratio="13" rot="MR0">-</text>
+<text x="27.8" y="27" size="2.54" layer="22" font="vector" ratio="13" rot="MR0">+</text>
+<text x="11.9" y="2" size="2.54" layer="22" font="vector" ratio="13" rot="MR0">+</text>
+<text x="20.1" y="2" size="2.54" layer="22" font="vector" ratio="13" rot="MR0">-</text>
 </plain>
 <libraries>
 <library name="TBB - pinhead" urn="urn:adsk.eagle:library:19155912">
@@ -1913,9 +1919,11 @@ design rules under a new name.
 <attribute name="NAME" x="9.0234" y="15.865" size="1.27" layer="25" font="vector" ratio="13" rot="SR0"/>
 </element>
 <element name="C1" library="TBB - rcl" package="CAPPM7343X310N" value="47uF" x="11" y="31" smashed="yes" rot="R180">
+<attribute name="MFR_PART_NO" value="TAJD476M035RNJV" x="11" y="31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="11.1" y="28.05" size="1.27" layer="25" font="vector" ratio="13" rot="R180"/>
 </element>
 <element name="C2" library="TBB - rcl" package="2312" value="6.8uF" x="15" y="18" smashed="yes" rot="R180">
+<attribute name="MFR_PART_NO" value="293D685X9035C2TE3" x="15" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="19.6" y="18.35" size="1.016" layer="25" font="vector" ratio="13" rot="R180"/>
 <attribute name="VALUE" x="16.6" y="20.575" size="1.016" layer="27" rot="R180"/>
 </element>
@@ -1933,6 +1941,7 @@ design rules under a new name.
 <attribute name="VENDOR" value="DIGIKEY" x="24" y="26" size="1.27" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 </element>
 <element name="C3" library="TBB - rcl" package="CAPPM7343X310N" value="47uF" x="11" y="37" smashed="yes" rot="R180">
+<attribute name="MFR_PART_NO" value="TAJD476M035RNJV" x="11" y="37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18" y="38.35" size="1.27" layer="25" font="vector" ratio="13" rot="R180"/>
 </element>
 </elements>
